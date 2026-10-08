@@ -1,0 +1,6 @@
+{
+  "name": "Cravery - Gourmet Food Delivery",
+  "description": "Full-stack food delivery platform with curated artisanal restaurants, interactive menu customization, live order tracking, and restaurant partner console.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

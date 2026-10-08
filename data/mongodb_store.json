@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "user-customer-1",
+      "email": "alex.mercer@gmail.com",
+      "name": "Alex Mercer (Foodie)",
+      "phone": "+1 (555) 304-9811",
+      "role": "customer",
+      "passwordHash": "$2b$10$Bg.H0hCwBj9Oe2UvsOh9mu9sQ4rJ80Yoq0iR8cNlKaD71vU7QyOZa",
+      "createdAt": "2026-10-08T02:52:46.244Z",
+      "lastLoginAt": "2026-10-08T02:52:48.800Z"
+    },
+    {
+      "id": "user-owner-1",
+      "email": "chef.marco@anticoforno.it",
+      "name": "Chef Marco Rossi (L'Antico Forno)",
+      "phone": "+1 (555) 234-8890",
+      "role": "restaurant_owner",
+      "passwordHash": "$2b$10$Bg.H0hCwBj9Oe2UvsOh9mu9sQ4rJ80Yoq0iR8cNlKaD71vU7QyOZa",
+      "createdAt": "2026-10-08T02:52:46.244Z"
+    },
+    {
+      "id": "user-admin-1",
+      "email": "admin@cravery.com",
+      "name": "Sarah Chen (Platform Admin)",
+      "phone": "+1 (555) 992-1000",
+      "role": "admin",
+      "passwordHash": "$2b$10$Bg.H0hCwBj9Oe2UvsOh9mu9sQ4rJ80Yoq0iR8cNlKaD71vU7QyOZa",
+      "createdAt": "2026-10-08T02:52:46.244Z",
+      "lastLoginAt": "2026-10-08T01:52:46.244Z"
+    }
+  ],
+  "login_logs": [
+    {
+      "id": "log-1791427972441-9876",
+      "userId": "user-customer-1",
+      "userEmail": "alex.mercer@gmail.com",
+      "userName": "Alex Mercer (Foodie)",
+      "role": "customer",
+      "loginTimestamp": "2026-10-08T02:52:52.441Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "deviceType": "Desktop Browser",
+      "status": "failed",
+      "failureReason": "Incorrect password provided"
+    },
+    {
+      "id": "log-1791427968800-8938",
+      "userId": "user-customer-1",
+      "userEmail": "alex.mercer@gmail.com",
+      "userName": "Alex Mercer (Foodie)",
+      "role": "customer",
+      "loginTimestamp": "2026-10-08T02:52:48.800Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "deviceType": "Desktop Browser",
+      "status": "success",
+      "sessionToken": "tok_1791427968799_1yuez0v"
+    },
+    {
+      "id": "log-1791427966245-5768",
+      "userId": "user-admin-1",
+      "userEmail": "admin@cravery.com",
+      "userName": "Sarah Chen (Platform Admin)",
+      "role": "admin",
+      "loginTimestamp": "2026-10-08T01:52:46.244Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "deviceType": "Desktop (macOS)",
+      "status": "success",
+      "sessionToken": "tok_init_admin_sample"
+    }
+  ],
+  "restaurants": [],
+  "orders": []
+}
